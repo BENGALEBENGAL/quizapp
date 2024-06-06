@@ -203,7 +203,7 @@ main {
         gap: 32px;
     }
 
-    .assuntos button dib{
+    .assuntos button div{
         width: 56px;
         height: 56px;
         padding: 8px;
