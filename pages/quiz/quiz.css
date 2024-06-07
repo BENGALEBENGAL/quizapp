@@ -246,11 +246,17 @@ main {
         max-width: 1160px;
         margin-inline: auto;
     }
+    
+    .assunto_ícone {
+        width: 56px;
+        height: 56px;
+        padding: 8px;
+    }
 
+    .assunto h1 {
+        font-size: 28px;
+    }
     .tema {
-        padding: 8px 0px;
-        display: flex;
-        align-items: center;
         gap: 16px;
     }
     
@@ -259,19 +265,13 @@ main {
     }
     
     .tema button {
-        height: 28px;
         width: 48px;
-        background: var(--purple);
-        border: 0;
-        border-radius: 999px;
-        padding: 4px;
+        height: 28px;
     }
     
     .tema button div {
-        background: var(--white);
         width: 20px; 
         height: 20px;
-        border-radius: 999px;
     }
 
     main {
