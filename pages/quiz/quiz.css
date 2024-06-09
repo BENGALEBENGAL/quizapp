@@ -203,7 +203,7 @@ main {
     outline: 3px solid var(--red);
 
     & span {
-        background: var(--green);
+        background: var(--red);
         color: var(--white);
     }
 }
